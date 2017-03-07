@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <link rel="stylesheet" href="main.css">
+      <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body ng-app>
+
+    <h1> Mad Libs!</h1>
+
+<div class="container">Noun: <input type="text" ng-model="noun">
+
+Adjective: <input type="text" ng-model="adjective">
+
+Action Verb: <input type="text" ng-model="action">
+
+Favorite Drink: <input type="text" ng-model="drink">
+
+Favorite Spot: <input type="text" ng-model="Spot">
+
+Favorite thing: <input type="text" ng-model="Thing">
+
+Something you don't like: <input type="text" ng-model="notlike"> </div>
+
+
+<p>{{noun}} is not very {{adjective}} and is not very {{action}}.
+<p>{{Noun}}Drinks way too much {{drink}} at work, which made them quit their job and work at {{spot}}.</p>
+<p>{{noun}} is deathly afraid of {{Thing}} and living a life full of {{notlike}}.</p>
+
+<button type="madlibButton" Name="button">Show Results!</button>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js" charset="utf-8"></script>
+  </body>
+</html>
